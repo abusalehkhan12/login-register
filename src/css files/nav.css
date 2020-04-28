@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    width: 100%;
+    min-height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(53, 47, 50);
+  }
+  .list{
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    list-style: none;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+  }
+  .list a{
+      color: aliceblue;
+      text-decoration: none;
+  }
+  .list a:active{
+    color: brown;
+  }
